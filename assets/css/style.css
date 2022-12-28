@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: rgb(217, 202, 202);
+    position: relative;
+    width: 100vw;
+    height: 230px;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: red;
+    transition: all 2s ease-out;
+    transition-delay: 1s;
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+
+.green {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 2s ease-out;
+    position: absolute;
+    left: 0;
+}
+
+.box:hover .red {
+    left: 90%;
+}
+
+.box:hover .green {
+    left: 90%;
+}
+
+
+
+
